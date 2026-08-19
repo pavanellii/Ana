@@ -1,3 +1,4 @@
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
 
@@ -6,7 +7,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Inicializando...</title>
+    <title>Para a Ana ❤️</title>
 
     <link rel="stylesheet" href="style.css">
 
@@ -31,7 +32,7 @@
 
 <div id="conteudo">
 
-    <h1 id="titulo">Inicializando...</h1>
+    <h1 id="titulo">Uma coisinha para você...</h1>
 
     <p id="mensagem"></p>
 
@@ -39,13 +40,15 @@
 
         <img src="foto.jpg" id="foto">
 
-        <h2>Você quer sair com o Pavanelli? ❤️</h2>
+        <h2>
+            Ana, vamos continuar saindo e nos conhecendo melhor? ❤️
+        </h2>
 
         <div class="botoes">
 
             <button id="sim">SIM ❤️</button>
 
-            <button id="nao">NÃO 😅</button>
+            <button id="nao">CLARO 😅</button>
 
         </div>
 
@@ -53,7 +56,43 @@
 
 </div>
 
+
 <script src="script.js"></script>
 
+<script>
+
+document.getElementById("sim").addEventListener("click", function() {
+
+    document.getElementById("pergunta").innerHTML = `
+
+        <h2>Então é isso... ❤️</h2>
+
+        <p style="font-size: 18px; line-height: 1.6;">
+            Eu só queria te dizer que gosto muito de ter você por perto.
+        </p>
+
+        <p style="font-size: 18px; line-height: 1.6;">
+            Gosto das nossas conversas, de sair com você e dos momentos
+            que a gente passa junto.
+        </p>
+
+        <p style="font-size: 18px; line-height: 1.6;">
+            Não quero apressar nada e nem colocar pressão em você.
+            Quero só continuar vivendo esses momentos com você,
+            sem precisar definir nada.
+        </p>
+
+        <p style="font-size: 20px; font-weight: bold; margin-top: 25px;">
+            Então vamos continuar saindo e nos conhecendo melhor? ❤️
+        </p>
+
+    `;
+
+});
+
+</script>
+
 </body>
+
 </html>
+```
