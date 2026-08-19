@@ -126,7 +126,7 @@ document.getElementById("sim").addEventListener("click", () => {
         <h1>Sabia que você ia aceitar!</h1>
 
         <p style="font-size:28px;margin-top:20px;">
-            Eu sei que sou irresistível Karina! kkkkkkkkk
+            Eu sei que sou irresistível Ana! Sou te falo uma coisa cuidado pra nao se apaixonar kkkkkkkkk
         </p>
 
         <h2 style="margin-top:40px;">
